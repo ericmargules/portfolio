@@ -18,8 +18,15 @@
 					{% endfor %}
 				</div>
 				
-				{{ content }}
+				<div id="article_body">
 
+					{{ content }}
+
+				</div>
+
+				<div id="breadcrumb">
+					<a class="body_link" href="{{ site.url }}#portfolio_content">← Back to Portfolio</a>
+				</div>
 				<div class="one_column" style="text-align: center">
 					<a class="post_button" href="{{ page.github_url }}">See the code</a>
 				</div>	

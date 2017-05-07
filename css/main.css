@@ -322,6 +322,8 @@ nav > li:not(:first-child) {
     color: #FEFEFE;
     font-size: 1.7em;
     text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .third_column > .icon:not(:last-child) {
@@ -361,13 +363,21 @@ nav > li:not(:first-child) {
 	margin: 4em auto;
 }
 
-#article_text > p {
+#article_body {
+	width: 100%;
+}
+
+#article_body > p {
     font-size: 1.6em;
     margin: 1.5em 0;
 }
 
+#article_body > p:last-child {
+    margin: 1.5em 0 0 0;
+}
 
-#article_text > p > img {
+
+#article_body > p > img {
 	display: block;
 	width: 100%;
 	margin: 2em auto;
@@ -377,6 +387,15 @@ nav > li:not(:first-child) {
 	font-size: 2.5em;
 	color: #0073CF;
 	display: block;
+}
+
+#breadcrumb {
+	width: 100%;
+	margin: 1.5em 0 0 0;
+}
+
+#breadcrumb > a {
+	font-size: 1.2em;
 }
 
 .post_button {
