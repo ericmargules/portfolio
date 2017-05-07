@@ -5,7 +5,10 @@ date:   2017-05-07
 github_url: https://github.com/ericmargules/portfolio
 tech_list: ["Ruby", "Ruby on Rails", "Jekyll", "Javascript", "GitHub"]
 hero: portfolio_hero.jpg
+cover: portfolio_hero.jpg
 post_image2: zapdos.png
+excerpt: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
+position: 1
 ---
 
 Fusce facilisis sollicitudin leo ac pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc scelerisque fringilla lobortis. Integer tincidunt elementum nisi. Aliquam erat volutpat. Ut commodo cursus nibh. Suspendisse <a class="body_link" href="#">at metus semper</a> enim tempor euismod eget feugiat magna. Fusce a eros quam. Donec nec aliquam turpis. Vivamus et felis nulla. Integer quis eros sed neque porta pellentesque vel non ex.
