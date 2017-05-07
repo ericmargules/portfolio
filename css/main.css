@@ -195,9 +195,6 @@ nav > li:not(:first-child) {
 	filter: grayscale(30%);
 }
 
-/*.portfolio_item:nth-child(even) {background: #CCE3F5}
-.portfolio_item:nth-child(odd) {background: #80B9E7}
-*/
 .portfolio_item {
 	width: 100%;
 	background: #f1f1f0;
