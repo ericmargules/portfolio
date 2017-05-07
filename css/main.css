@@ -231,7 +231,7 @@ nav > li:not(:first-child) {
 	background-color: #CCE3F5;
 	border-radius: 15px;
 	padding: 0.25em 0.75em;
-	margin-right: .7em;
+	margin-right: .5em;
 }
 
 .portfolio_desc {
@@ -313,9 +313,23 @@ nav > li:not(:first-child) {
 
 .contact_body {
 	color: #FEFEFE;
-	font-size: 1.1em;
+	font-size: 1.25em;
 	font-weight: 400;
 	letter-spacing: .05em;
+}
+
+.third_column > .icon {
+    color: #FEFEFE;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.third_column > .icon:not(:last-child) {
+    margin-right: .75em;
+}
+
+.third_column > .icon:hover {
+    color: #333;
 }
 
 .c_button {
@@ -347,9 +361,16 @@ nav > li:not(:first-child) {
 	margin: 4em auto;
 }
 
-.article_paragraph {
+#article_text > p {
     font-size: 1.6em;
     margin: 1.5em 0;
+}
+
+
+#article_text > p > img {
+	display: block;
+	width: 100%;
+	margin: 2em auto;
 }
 
 .post_title {
@@ -368,12 +389,6 @@ nav > li:not(:first-child) {
     text-decoration: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-
-.post_image {
-	display: block;
-	width: 100%;
-	margin: 5em auto;
 }
 
 @media screen and (min-width:1350px){
