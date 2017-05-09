@@ -20,6 +20,10 @@ p {
 	text-rendering: optimizeLegibility;
 }
 
+a {
+	text-decoration: none;
+}
+
 .top_nav {
 	position: fixed;
 	top: 0px;
@@ -68,7 +72,6 @@ nav > li:not(:first-child) {
 .top_nav_link {
 	font-size: 1.4em;
 	text-transform: uppercase;
-	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -159,7 +162,6 @@ nav > li:not(:first-child) {
 .body_link{
 	color: #333;
 	background-color: #CCE3F5;
-	text-decoration: none;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
@@ -168,7 +170,6 @@ nav > li:not(:first-child) {
 	color: #333;
 	border-bottom: solid 2px #80B9E7;
 	background-color: #FFF;
-	text-decoration: none;
 }
 
 .fourth_column {
@@ -252,7 +253,6 @@ nav > li:not(:first-child) {
 	padding: 15px 37px;
 	color: #737373;
 	border: 1px solid #737373;
-	text-decoration: none;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 
@@ -321,7 +321,6 @@ nav > li:not(:first-child) {
 .third_column > .icon {
     color: #FEFEFE;
     font-size: 1.7em;
-    text-decoration: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -341,7 +340,6 @@ nav > li:not(:first-child) {
     padding: 15px 37px;
     color: #FEFEFE;
     border: 1px solid #FEFEFE;
-    text-decoration: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -353,8 +351,39 @@ nav > li:not(:first-child) {
 
 /* Post Styles */
 
+#post_hero {
+	width: 100%;
+	height: 69vh;
+	min-height: 350px;
+	max-height: 900px;
+	background: #0073CF;
+	text-align: center;
+}
+
 .portfolio_hero {
-	width: 100%
+	width: 100%;
+	height: 69vh;
+	min-height: 350px;
+	max-height: 900px;
+	background: #0073CF;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#post_hero > .hero_button {
+	position: relative;
+	font-size: 13em;
+	color: #555;
+	opacity: 0.9;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#post_hero > .hero_button:hover {
+	color: #0073CF;
+	opacity: 1;
 }
 
 #article_text {
@@ -405,7 +434,6 @@ nav > li:not(:first-child) {
     padding: 15px 45px;
     color: #737373;
     border: 1px solid #737373;
-    text-decoration: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }

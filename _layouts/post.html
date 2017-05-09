@@ -9,7 +9,11 @@
     	{% include header.html %}
 
 		<article class="portfolio_post">
-			<img class="portfolio_hero" src="{{ site.url }}/images/{{ page.cover }}">
+			<div id="post_hero">
+				<img class="portfolio_hero" src="{{ site.url }}/images/{{ page.cover }}">
+				<div id="hero_float"></div>
+				<a class="fa fa-play-circle hero_button" href="#"></a>
+			</div>
 			<div id="article_text">
 				<text class="post_title">{{ page.post_title }}</text>
 				<div class="tech_list">		
