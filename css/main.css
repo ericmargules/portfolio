@@ -533,19 +533,41 @@ body > .video_button:hover {
 
 	.p_item_container {
 	    width: 100%;
+	
+	/*Flexbox Stuff*/
+	    display: -webkit-box;
+	    display: -moz-box;
+	    display: box;
+	    
+	    -webkit-box-orient: vertical;
+	    -moz-box-orient: vertical;
+	    box-orient: vertical;
+
+	}
+	
+	.fourth_column {
+	    -webkit-box-ordinal-group: 1;
+	    -moz-box-ordinal-group: 1;
+	    box-ordinal-group: 1;
+	}
+
+	.portfolio_desc {
+	    margin: 0 auto;
+	    width: 80%;
+	    max-width: none;
+	    display: block;
+
+	    /* Flexbox Stuff */
+	    -webkit-box-ordinal-group: 2;
+	    -moz-box-ordinal-group: 2;
+	    box-ordinal-group: 2;
+
 	}
 	
 	.portfolio_image {
 	    display: block;
 	    width: 80%;
 	    margin: 0 auto;
-	}
-	
-	.portfolio_desc {
-	    margin: 0 auto;
-	    width: 80%;
-	    max-width: none;
-	    display: block;
 	}
 
 	.tech {
