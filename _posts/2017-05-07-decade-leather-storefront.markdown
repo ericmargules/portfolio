@@ -1,5 +1,6 @@
 ---
 layout: post
+javascript: post
 post_title:  "Portfolio Item Test1!"
 date:   2017-05-07
 github_url: https://github.com/ericmargules/portfolio

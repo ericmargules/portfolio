@@ -12,6 +12,7 @@ $(window).scroll(function() {
         $(".top_nav > nav > li > a").addClass('white');
     }
 });
+
 $(window).scroll(function() {
     if($(window).scrollTop() > 0) {
         var top = Math.round(($(window).scrollTop() / 6));

@@ -12,6 +12,12 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <script src="https://use.fontawesome.com/ec8ad9b714.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="{{site.url}}/js/main.js"></script>
+  {% if page.javascript %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    {% if page.javascript == "main" %}
+      <script src="{{site.url}}/js/main.js"></script>
+    {% elsif page.javascript == "post" %}
+      <script src="{{site.url}}/js/post.js"></script>
+    {% endif %}
+  {% endif %}
 </head>
