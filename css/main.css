@@ -288,6 +288,11 @@ nav > li:not(:first-child) {
     border: 0;
 }
 
+#contact_bumper {
+	display: block;
+	height: 7em;
+}
+
 #contact_section {
 	max-width: 85em;
 	margin: 0 auto;
