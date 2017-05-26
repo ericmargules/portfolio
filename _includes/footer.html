@@ -1,8 +1,11 @@
 <footer id="index_footer">
-	<div class="one_column">
-		<h1 id="footer_title">Don't be shy</h1>
-		<hr class="footer_hr">
-	</div>
+	{% if page.javascript != "contact" %}
+		<div class="one_column">
+			<h1 id="footer_title">Don't be shy</h1>
+			<hr class="footer_hr">
+		</div>
+	{% endif %}
+
 	<div id="contact_section">
 		<div class="third_column">
 			<h2 class="contact_title">Email</h2>
@@ -17,7 +20,10 @@
 			<h2 class="contact_body">1 269 762 9487</h2>
 		</div>
 	</div>
-	<div class="one_column">
-		<a class="c_button" href="#">Get in touch</a>
-	</div>
+	{% if page.javascript != "contact" %}
+		<div class="one_column">
+			<a class="c_button" href="#">Get in touch</a>
+		</div>
+	{% endif %}
+
 </footer>
