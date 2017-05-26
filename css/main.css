@@ -84,12 +84,16 @@ nav > li:not(:first-child) {
 	color: #FFFFFF;
 }
 
-.small_link	{
-	font-size: 1.15em;
+.white:hover {
+	color: #111;
 }
 
-.top_nav_link:hover {
-	color: #111;
+.black:hover {
+	color: #0073CF;
+}
+
+.small_link	{
+	font-size: 1.15em;
 }
 
 .small_link:hover {
