@@ -5,27 +5,26 @@ javascript: contact
 <div id="contact_bumper"></div>
 
 <div id="contact_content">
-	<h1>Contact</h1>
 	<div id="contact_form">
 
 		<form id="contactform" method="POST">
 	    <div id="contact_fields">
-		    <p>
-			    <label name="name">Name</label><br>
-			    <input type="text" name="name">
-			  </p>
-		  	<p>
-			  	<label name="_replyto">Email</label><br>
-			    <input type="email" name="_replyto">
-		  	</p>
-		  	<p>
-			  	<label name="content">Message</label><br>
-			    <textarea name="content" cols="40" rows="5"></textarea><br>
+		    <div class="field_box">
+			    <input type="text" placeholder="NAME" name="name">
+			    <label class="contact_label" name="name">Name</label>
+			</div>
+		  	<div class="field_box">
+			    <input type="email" placeholder="EMAIL" name="_replyto">
+			  	<label class="contact_label" name="_replyto">Email</label>
+		  	</div>
+		  	<div class="field_box">
 			    <input type="text" name="_gotcha" style="display:none" />
-					<input type="hidden" name="_next" value="{{ site.baseurl }}/" />
-				</p>	
+				<input type="hidden" name="_next" value="{{ site.baseurl }}/" />
+			  	<textarea name="content" placeholder="WHAT'S ON YOUR MIND?" cols="40" rows="5"></textarea>
+			  	<label class="contact_label" name="content">Message</label>			    
+			</div>	
 		  </div>
-	    <button class="button" id="sendMessage"><a href="#">Send</a></button>
+	    <text id="sendMessage"><a class="contact_button" href="#">SEND</a></text>
 		</form>
 </div>
 </div>

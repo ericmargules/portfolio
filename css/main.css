@@ -24,6 +24,27 @@ a {
 	text-decoration: none;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 20px;
+  color: black;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0em;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  font-size: 1.25em;
+  color: #737373;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 1.25em;
+  color: #737373;
+}
+
 .top_nav {
 	position: fixed;
 	top: 0px;
@@ -292,14 +313,89 @@ nav > li:not(:first-child) {
     border: 0;
 }
 
+#contact_bumper, #contact_content {
+	background-color: #f1f1f0;
+}
+
+#contact_content {
+	padding-bottom: 3em;
+}
+
 #contact_bumper {
 	display: block;
 	height: 7em;
 }
 
+#contact_form {
+	width: 40%;
+	margin: 0 auto;
+}
+
 #contact_section {
 	max-width: 85em;
 	margin: 0 auto;
+}
+
+.field_box > input, textarea  {
+	width: 79%;
+	height: 25px;
+	border: none;
+	background-color: #fff;
+	color: #737373;
+	padding: 10px 5px 10px 5px;
+	padding-left: 21%;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.field_box {
+	position: relative;
+}
+
+.contact_label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: .08em;
+    color: white;
+    background: #0073CF;
+    padding: 10px 5px;
+    text-transform: uppercase;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .contact_label, textarea.focused + .contact_label {
+	width: 18%;
+	background-color: #CCE3F5;
+	color: #737373;
+}
+
+.field_box:hover .contact_label {
+	width: 18% ;
+	background-color: #CCE3F5;
+	color: #737373;
+}
+
+.contact_button {
+	font-size: 1.1em;
+	letter-spacing: .08em;
+	text-align: center;	
+	display: inline-block;
+	width: 100%;
+	padding: 10px 5px;
+	background-color: #0073CF;
+	color: #f1f1f0;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.contact_button:hover, .contact_label:hover {
+	background-color: #CCE3F5;
+	color: #737373;
 }
 
 .third_column {
@@ -598,5 +694,9 @@ body > .video_button:hover {
 
 	body > .video_button {
 		left: 93%;
+	}
+
+	#contact_form {
+		width: 90%;
 	}
 }
