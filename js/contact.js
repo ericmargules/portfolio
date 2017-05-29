@@ -28,7 +28,7 @@ function handleContactForm() {
             alert('Thanks for the email, I\'ll be in touch soon.');
             return false;
         } else{
-            alert("fill out the form!");
+            alert("Please fill out the entire form!");
             return false;
         }
 	});

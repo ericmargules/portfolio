@@ -313,12 +313,16 @@ nav > li:not(:first-child) {
     border: 0;
 }
 
+input, textarea {
+	font-size: 1.3em;
+}
+
 #contact_bumper, #contact_content {
 	background-color: #f1f1f0;
 }
 
 #contact_content {
-	padding-bottom: 3em;
+	padding: 2em 0 5em 0;
 }
 
 #contact_bumper {
@@ -338,7 +342,7 @@ nav > li:not(:first-child) {
 
 .field_box > input, textarea  {
 	width: 79%;
-	height: 25px;
+	height: 29px;
 	border: none;
 	background-color: #fff;
 	color: #737373;
@@ -358,7 +362,7 @@ nav > li:not(:first-child) {
     left: 0;
     width: 100%;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     letter-spacing: .08em;
     color: white;
     background: #0073CF;
@@ -381,7 +385,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 }
 
 .contact_button {
-	font-size: 1.1em;
+	font-size: 1.4em;
 	letter-spacing: .08em;
 	text-align: center;	
 	display: inline-block;

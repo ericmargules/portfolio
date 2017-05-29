@@ -10,11 +10,11 @@ javascript: contact
 		<form id="contactform" method="POST">
 	    <div id="contact_fields">
 		    <div class="field_box">
-			    <input type="text" placeholder="NAME" name="name">
+			    <input type="text" placeholder="WHAT'S YOUR NAME?" name="name">
 			    <label class="contact_label" name="name">Name</label>
 			</div>
 		  	<div class="field_box">
-			    <input type="email" placeholder="EMAIL" name="_replyto">
+			    <input type="email" placeholder="WHAT'S YOUR EMAIL?" name="_replyto">
 			  	<label class="contact_label" name="_replyto">Email</label>
 		  	</div>
 		  	<div class="field_box">

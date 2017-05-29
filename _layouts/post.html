@@ -21,26 +21,28 @@
 				<div id="hero_float"></div>
 				<a class="fa fa-play-circle hero_button" href="#"></a>
 			</div>
-			<div id="article_text">
-				<text class="post_title">{{ page.post_title }}</text>
-				<div class="tech_list">		
-					{% for tech in page.tech_list %}
-					<span class="tech">{{ tech }}</span>
-					{% endfor %}
-				</div>
-				
-				<div id="article_body">
+			<div id="article_wrapper">
+				<div id="article_text">
+					<text class="post_title">{{ page.post_title }}</text>
+					<div class="tech_list">		
+						{% for tech in page.tech_list %}
+						<span class="tech">{{ tech }}</span>
+						{% endfor %}
+					</div>
+					
+					<div id="article_body">
 
-					{{ content }}
+						{{ content }}
 
-				</div>
+					</div>
 
-				<div id="breadcrumb">
-					<a class="body_link" href="{{ site.url }}#portfolio_content">← Back to Portfolio</a>
+					<div id="breadcrumb">
+						<a class="body_link" href="{{ site.url }}#portfolio_content">← Back to Portfolio</a>
+					</div>
+					<div class="one_column" style="text-align: center">
+						<a class="post_button" href="{{ page.github_url }}">See the code</a>
+					</div>	
 				</div>
-				<div class="one_column" style="text-align: center">
-					<a class="post_button" href="{{ page.github_url }}">See the code</a>
-				</div>	
 			</div>
 		</article>
 
