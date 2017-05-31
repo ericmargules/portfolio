@@ -5,8 +5,8 @@ post_title:  "Portfolio Item Test1!"
 date:   2017-05-07
 github_url: https://github.com/ericmargules/portfolio
 tech_list: ["Ruby", "Ruby on Rails", "Jekyll", "Javascript", "GitHub"]
-hero: portfolio_hero.jpg
-cover: portfolio_hero.jpg
+hero: portfolio_hero3.jpg
+cover: portfolio_hero3.jpg
 post_image2: zapdos.png
 excerpt: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
 position: 1
