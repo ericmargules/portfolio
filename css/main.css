@@ -504,11 +504,15 @@ body > .video_button:hover {
 	text-align: center;
 }
 
-.portfolio_hero {
+.portfolio_hero, .portfolio_hero_small {
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.portfolio_hero_small {
+	display: none;
 }
 
 #post_hero > .hero_button {
@@ -704,7 +708,19 @@ body > .video_button:hover {
     	margin-left: 3.75em;
 	}
 
-	#hero_float {
-	    height: 20vh;
+	.portfolio_hero {
+		display: none;
+	}
+
+	.portfolio_hero_small {
+		display: block;
+	}
+
+	#post_hero {
+		height: 50vw;
+	}
+
+	#article_body > p {
+	    font-size: 1.5em;
 	}
 }
