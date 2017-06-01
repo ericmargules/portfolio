@@ -403,7 +403,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 }
 
 .third_column {
-	width: 33%;
+	width: 32%;
 	display: inline-block;
 }
 
@@ -466,8 +466,8 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: #333;
-	opacity: .5;
+	background-color: #666;
+	opacity: .8;
 	z-index: 101;
 }
 
@@ -679,10 +679,6 @@ body > .video_button:hover {
     	width: 90%;
     }
 
-    .third_column {
-    	width: 32%;
-    }
-
 	.post_video {
 		left: 5%;
 		width: 90%;
@@ -692,7 +688,23 @@ body > .video_button:hover {
 		left: 93%;
 	}
 
+	.third_column {
+	    width: 100%;
+	}
+
+	.third_column:not(:last-child) {
+	    margin-bottom: 2.5em;
+	}
+
 	#contact_form {
 		width: 90%;
+	}
+
+	nav > li:not(:first-child) {
+    	margin-left: 3.75em;
+	}
+
+	#hero_float {
+	    height: 20vh;
 	}
 }
