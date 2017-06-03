@@ -184,14 +184,14 @@ nav > li:not(:first-child) {
 	padding-right: 8%;
 }
 
-.body_link{
+.body_link, #article_body > p > a{
 	color: #333;
 	background-color: #CCE3F5;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
-.body_link:hover{
+.body_link:hover, #article_body > p > a:hover{
 	color: #333;
 	border-bottom: solid 2px #80B9E7;
 	background-color: #FFF;
