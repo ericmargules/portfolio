@@ -29,7 +29,7 @@ layout: index
 			<div class="portfolio_item">
 				<div class="p_item_container">
 					<div class="fourth_column">
-						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero_small }}">
+						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}">
 					</div>
 					<div class="portfolio_desc">
 						<text class="portfolio_title">{{ post.post_title }}</text>
@@ -59,7 +59,7 @@ layout: index
 						<a class="p_button" href="{{ post.github_url }}">GitHub</a>
 					</div>
 					<div class="fourth_column">
-						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero_small }}">
+						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}">
 					</div>
 				</div>
 			</div>		
