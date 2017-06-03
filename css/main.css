@@ -330,6 +330,17 @@ input, textarea {
 	height: 7em;
 }
 
+#contact_notification {
+	width: 100%;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#contact_notification > span {
+	font-size: 1.25em;
+	color: red;
+}
+
 #contact_form {
 	width: 40%;
 	margin: 0 auto;

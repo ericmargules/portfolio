@@ -6,7 +6,9 @@ javascript: contact
 
 <div id="contact_content">
 	<div id="contact_form">
-
+		<div id="contact_notification">
+			<span class="notification"></span>
+		</div>
 		<form id="contactform" method="POST">
 	    <div id="contact_fields">
 		    <div class="field_box">

@@ -11,9 +11,15 @@ function verifyContactForm() {
     return test;
 }
 
+function squish(that) {
+    if (that.value != "" ) {
+        that.nextSibling.nextSibling.style.width = "18%";
+    } else {
+        that.nextSibling.nextSibling.style.width = "";
+    }
+}
+
 function handleContactForm() {
-
-
 	var message = "";
 
 	$("#sendMessage").on("click", function() {
@@ -28,7 +34,7 @@ function handleContactForm() {
             alert('Thanks for the email, I\'ll be in touch soon.');
             return false;
         } else{
-            alert("Please fill out the entire form!");
+            $("span")[0].innerHTML = "Please complete the entire form!";
             return false;
         }
 	});
@@ -40,18 +46,11 @@ $(document).ready(function(){
     handleContactForm();
 
     $("input").on("blur", function() {
-        if ($(this)[0].value != "" ) {
-            this.nextSibling.nextSibling.style.width = "18%";
-        } else {
-            this.nextSibling.nextSibling.style.width = "";
-        }
+        squish(this);
     });
+
     $("textarea").on("blur", function() {
-        if ($(this)[0].value != "" ) {
-            this.nextSibling.nextSibling.style.width = "18%";
-        } else {
-            this.nextSibling.nextSibling.style.width = "";
-        }
+        squish(this);
     });
 
 
