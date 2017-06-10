@@ -1,7 +1,7 @@
 ---
 layout: post
 javascript: post
-post_title:  "Margul.es Portfolio"
+post_title:  "Margul.es"
 date:   2017-05-30
 github_url: https://github.com/ericmargules/ericmargules.github.io
 tech_list: ["Jekyll", "Ruby", "Liquid", "JavaScript", "HTML/CSS", "GitHub Pages"]

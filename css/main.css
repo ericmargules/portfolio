@@ -132,7 +132,7 @@ nav > li:not(:first-child) {
 
 #hero_float {
 	width: 100%;
-	height: 27vh;
+	height: 31vh;
 	float: left;
 
 }
@@ -511,7 +511,7 @@ body > .video_button:hover {
 
 #post_hero {
 	width: 100%;
-	height: 36vw;
+	height: 43vw;
 	text-align: center;
 }
 
@@ -529,7 +529,7 @@ body > .video_button:hover {
 #post_hero > .hero_button {
 	position: relative;
 	font-size: 10vw;
-	color: #555;
+	color: #e2e2de;
 	opacity: 0.9;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;

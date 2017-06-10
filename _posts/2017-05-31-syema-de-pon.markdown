@@ -4,7 +4,7 @@ javascript: post
 post_title:  "Syema de Pon"
 date:   2017-06-01
 github_url: https://github.com/ericmargules/syema_de_pon
-tech_list: ["Ruby", "Gosu", "MS Paint", "Photoshop"]
+tech_list: ["Ruby", "Gosu", "Photoshop", "MS Paint"]
 hero: portfolio_hero4.jpg
 cover: portfolio_hero3.jpg
 post_image2: zapdos.png
