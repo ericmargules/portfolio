@@ -4,13 +4,6 @@
   {% include head.html %}
 
   <body>
-    <overlay class="video_overlay hidden">
-    </overlay>
-    <a class="fa fa-times-circle video_button hidden" href="#"></a>
-    <video class="post_video hidden" poster="{{ site.url }}/images/{{ page.hero }}" controls loop>
-		<source src="{{ site.url }}/videos/{{ page.video }}" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
     <content>
     	
     	{% include header.html %}
@@ -20,7 +13,6 @@
 				<img class="portfolio_hero" src="{{ site.url }}/images/{{ page.cover }}">
 				<img class="portfolio_hero_small" src="{{ site.url }}/images/{{ page.cover_small }}">
 				<div id="hero_float"></div>
-				<a class="fa fa-play-circle hero_button" href="#"></a>
 			</div>
 			<div id="article_wrapper">
 				<div id="article_text">

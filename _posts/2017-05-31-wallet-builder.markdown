@@ -19,3 +19,8 @@ A custom wallet builder webapp for the boutique luxury leather goods brand, [Dec
 ![image description]({{ site.url }}/images/{{ page.post_image }})
 
 When the user adds the custom wallet to their cart, a composite of the images is created using the HTML5 canvas element, converted to data URL using JavaScript, and uploaded to the [Amazon Web Services](https://aws.amazon.com/) CDN. The custom product is then stored in the database and added to the user's cart for purchase.
+
+<video class="post_video" poster="{{ site.url }}/images/{{ page.hero }}" controls loop>
+	<source src="{{ site.url }}/videos/{{ page.video }}" type="video/mp4">
+	Your browser does not support the video tag.
+</video>

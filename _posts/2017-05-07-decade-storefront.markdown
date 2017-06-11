@@ -19,3 +19,8 @@ The [digital storefront](http://www.decadeleather.com) of the boutique luxury le
 ![image description]({{ site.url }}/images/{{ page.post_image }})
 
 The store also features a [custom webapp](https://ericmargules.github.io/code/2017/02/17/decade-leather-builder.html) that enables users to build and purchase their own leather goods using Ruby, Javascript, and HTML5.
+
+<video class="post_video" poster="{{ site.url }}/images/{{ page.hero }}" controls loop>
+	<source src="{{ site.url }}/videos/{{ page.video }}" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
