@@ -7,6 +7,7 @@ github_url: https://github.com/ericmargules/decade
 tech_list: ["Ruby", "Ruby on Rails", "Javascript", "HTML5", "MySQL", "Heroku", "AWS"]
 hero: decade_storefront_hero.png
 cover: decade_storefront_cover.png
+cover_small: decade_storefront_cover_small.png
 post_image: decade_storefront_mobile.png
 excerpt: "The digital storefront for the boutique luxury leather goods brand, Decade. The webstore features a complete database, cart and checkout system, as well as a custom webapp that enables users to design and purchase their own leather goods."
 position: 1

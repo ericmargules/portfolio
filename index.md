@@ -7,7 +7,7 @@ layout: index
 		<div id="hero_float">
 		</div>
 		<text id="hero_name">Eric Margules</text>
-		<text id="hero_desc">Web & Game Development</text>
+		<text id="hero_desc">Web & Game Developer</text>
 	</div>
 </div>
 <div id="about_container">
@@ -29,10 +29,10 @@ layout: index
 			<div class="portfolio_item">
 				<div class="p_item_container">
 					<div class="fourth_column">
-						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}">
+						<a href="{{site.url}}{{post.url}}"><img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}"></a>
 					</div>
-					<div class="portfolio_desc">
-						<text class="portfolio_title">{{ post.post_title }}</text>
+					<div class="portfolio_desc left">
+						<a href="{{site.url}}{{post.url}}"><text class="portfolio_title">{{ post.post_title }}</text></a>
 						<div class="tech_list">		
 							{% for tech in post.tech_list %}
 							<span class="tech">{{ tech }}</span>
@@ -47,8 +47,8 @@ layout: index
 		{% else %}
 			<div class="portfolio_item">
 				<div class="p_item_container">
-					<div class="portfolio_desc">
-						<text class="portfolio_title">{{ post.post_title }}</text>
+					<div class="portfolio_desc right">
+						<a href="{{site.url}}{{post.url}}"><text class="portfolio_title">{{ post.post_title }}</text></a>
 						<div class="tech_list">		
 							{% for tech in post.tech_list %}
 							<span class="tech">{{ tech }}</span>
@@ -59,7 +59,7 @@ layout: index
 						<a class="p_button" href="{{ post.github_url }}">GitHub</a>
 					</div>
 					<div class="fourth_column">
-						<img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}">
+						<a href="{{site.url}}{{post.url}}"><img class="portfolio_image" src="{{site.url}}/images/{{ post.hero }}"></a>
 					</div>
 				</div>
 			</div>		
