@@ -11,16 +11,20 @@ cover_small: wallet_builder_cover_small.png
 post_image: wallet_builder_mobile.png
 excerpt: "A custom wallet builder web app for the boutique luxury leather goods brand, Decade. The wallet builder enables customers to design and purchase their own leather goods by building a composite image of the custom wallet based on the user's selection of materials and options."
 position: 1
-video: decade-webstore.mp4
+video: wallet-builder.mp4
 ---
 
-A custom wallet builder webapp for the boutique luxury leather goods brand, [Decade](http://www.decadeleather.com). The web application enables customers to design their own leather goods by choosing from a list of materials and options. An image of the wallet is built programmatically from over 700 individual images and displayed using Ruby, Javascript, and CSS. 
+A custom wallet builder webapp for the boutique luxury leather goods brand, [Decade](http://www.decadeleather.com). The web application enables customers to design their ideal wallet by choosing colors, materials and other options to build the product in real-time. 
 
 ![image description]({{ site.url }}/images/{{ page.post_image }})
 
-When the user adds the custom wallet to their cart, a composite of the images is created using the HTML5 canvas element, converted to data URL using JavaScript, and uploaded to the [Amazon Web Services](https://aws.amazon.com/) CDN. The custom product is then stored in the database and added to the user's cart for purchase.
+As the customer selects options, images of the interior and exterior of wallet are built programmatically from over 700 individual images and displayed using Ruby, Javascript, and CSS. The customer can switch views by toggling the view button or clicking the image itself.
 
-<video class="post_video" poster="{{ site.url }}/images/{{ page.hero }}" controls loop>
+<video class="post_video" poster="{{ site.url }}/images/{{ page.hero }}" controls>
 	<source src="{{ site.url }}/videos/{{ page.video }}" type="video/mp4">
 	Your browser does not support the video tag.
 </video>
+
+When the customer adds the custom wallet to their cart, a composite of the images is created using the HTML5 canvas element, converted to data URL using JavaScript, and uploaded to the [Amazon Web Services CDN](https://aws.amazon.com/). The custom product is then stored in the database and added to the customer's cart for purchase.
+
+The wallet builder application lives as a part of [Decade's digital storefront]({{ site.url }}/2017/06/01/decade-storefront.html), which features pre-made leather goods and the ecommerce mechanism to complete purchases. In the future, additional wallet types (card wallet, id wallet, etc.) and other leather goods (notebook and passport covers) will be added to the web application.
