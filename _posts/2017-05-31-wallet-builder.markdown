@@ -1,7 +1,7 @@
 ---
 layout: post
 javascript: post
-post_title:  "Wallet Builder App"
+post_title:  "Custom Wallet Designer"
 date:   2017-06-02
 github_url: https://github.com/ericmargules/decade
 tech_list: ["Ruby", "Ruby on Rails", "JavaScript", "HTML5", "CSS", "AWS"]

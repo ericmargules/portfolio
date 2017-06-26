@@ -14,10 +14,10 @@
   <script src="https://use.fontawesome.com/ec8ad9b714.js"></script>
   {% if page.javascript %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="{{site.url}}/js/header.js"></script>
     {% if page.javascript == "main" %}
       <script src="{{site.url}}/js/main.js"></script>
     {% elsif page.javascript == "post" %}
+      <script src="{{site.url}}/js/header.js"></script>
       <script src="{{site.url}}/js/post.js"></script>
     {% elsif page.javascript == "contact" %}
       <script src="{{site.url}}/js/contact.js"></script>
