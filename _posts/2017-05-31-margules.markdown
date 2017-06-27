@@ -5,12 +5,12 @@ post_title:  "Margul.es"
 date:   2017-05-30
 github_url: https://github.com/ericmargules/ericmargules.github.io
 tech_list: ["Jekyll", "Ruby", "Liquid", "JavaScript", "HTML/CSS", "GitHub Pages"]
-hero: portfolio_hero4.jpg
-cover: portfolio_hero3.jpg
-post_image2: zapdos.png
+hero: margules_hero.png
+cover: margules_cover.png
+cover_small: margules_cover_small.png
 excerpt: "My professional portfolio page, Margul.es, was built using the Jekyll framework and Liquid template language, and deployed to GitHub Pages. Margul.es features a responsive design using CSS media queries and is easily expandable thanks to Jekyll's YAML-based posting system."
 position: 1
-video: decade-webstore.mp4
+video: margules.mp4
 ---
 
 My professional portfolio was designed to illustrate my development, coding and design skills on an engaging and mobile-friendly website. As a [static website](https://en.wikipedia.org/wiki/Static_web_page), margul.es was developed to be lightweight and easily expandable, while keeping costs to a minimum.

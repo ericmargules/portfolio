@@ -21,11 +21,4 @@ $(document).ready(function(){
     $(window).scroll(function() {
         shrinkHeader();
     });
-
-    $(window).scroll(function() {
-        if($(window).scrollTop() > 0) {
-            var top = Math.round(($(window).scrollTop() / 6));
-            $('#hero')[0].style.opacity = (1 -(top * .01));
-        }
-    });
 });

@@ -13,7 +13,7 @@ layout: index
 <div id="about_container">
 	<div id="intro_content">
 		<br>
-		<div class="fourth_column">
+		<div class="avatar_column">
 			<img id="intro_photo" src="{{site.url}}/images/margules.jpg">
 		</div>
 		<div class="three_fourths_column">

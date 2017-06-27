@@ -4,7 +4,7 @@ javascript: post
 post_title:  "Decade Webstore"
 date:   2017-06-01
 github_url: https://github.com/ericmargules/decade
-tech_list: ["Ruby", "Ruby on Rails", "Javascript", "HTML5", "MySQL", "Heroku", "AWS"]
+tech_list: ["Ruby on Rails", "Javascript", "HTML5", "Heroku", "AWS"]
 hero: decade_storefront_hero.png
 cover: decade_storefront_cover.png
 cover_small: decade_storefront_cover_small.png

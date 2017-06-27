@@ -36,4 +36,11 @@ $(document).ready(function(){
         	$('.top_nav_link').removeClass('black'); 
         }
     });
+
+    $(window).scroll(function() {
+        if($(window).scrollTop() > 0) {
+            var top = Math.round(($(window).scrollTop() / 6));
+            $('#hero')[0].style.opacity = (1 -(top * .01));
+        }
+    });
 });

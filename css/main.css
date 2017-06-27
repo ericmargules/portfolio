@@ -106,7 +106,7 @@ nav > li:not(:first-child) {
 }
 
 .blue:hover {
-	color: #333;
+	color: #777;
 }
 
 .white {
@@ -205,8 +205,13 @@ nav > li:not(:first-child) {
 	background-color: #CCE3F5;
 }
 
-.fourth_column {
+.avatar_column {
 	width: 24%;
+	display: inline-block;
+}
+
+.fourth_column {
+	width: 30%;
 	display: inline-block;
 }
 
@@ -239,7 +244,7 @@ nav > li:not(:first-child) {
 }
 
 .p_item_container {
-	width: 80em;
+	max-width: 80em;
 	margin: 0 auto;
 	padding: 4em 0;
 }
@@ -275,11 +280,11 @@ nav > li:not(:first-child) {
 
 .portfolio_desc {
 	display: inline-block;
-	max-width: 65%;
+	max-width: 60%;
 }
 
 .left {
-	margin-left: 3em;	
+	margin-left: 4em;	
 }
 
 .right {
@@ -575,7 +580,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	}
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:899px){
 	#hero_name {
 	    font-size: 5.5vmax;
 	}
@@ -584,7 +589,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	    font-size: 3.8vmax;
 	}
 
-	.fourth_column {
+	.fourth_column, .avatar_column {
 	    width: 100%;
 	    display: block;
 	    margin: 0 auto 3em auto;
@@ -649,6 +654,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 
 	.tech {
 	    font-size: 1.1em;
+	    padding: 0.15em 0.5em;
 	}
 
 	#contact_section {
@@ -660,7 +666,11 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	}
 
 	.third_column:not(:last-child) {
-	    margin-bottom: 2.5em;
+	    margin-bottom: 3.5em;
+	}
+
+	.contact_title {
+		margin-bottom: .5em;
 	}
 
 	#contact_form {
