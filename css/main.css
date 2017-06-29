@@ -664,6 +664,10 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	    box-ordinal-group: 2;
 
 	}
+
+	.right, .left {
+		float: none;
+	}
 	
 	.portfolio_image {
 	    display: block;
@@ -703,9 +707,12 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	.field_box > input, textarea {
 		padding-left: 0;
 	}
-
+	.top_nav_link {
+		font-size: 1.1em;
+	}
+	
 	nav > li:not(:first-child) {
-    	margin-left: 3em;
+    		margin-left: 2.25em;
 	}
 
 	.portfolio_hero {
