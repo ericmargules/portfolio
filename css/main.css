@@ -69,7 +69,7 @@ a {
 }
 
 .little {
-	height: 45px;
+	height: 35px;
 	padding-top: none;
 	background-color: rgba(255, 255, 255, 0.8);
 	border-bottom: 1px solid gainsboro;
@@ -87,11 +87,11 @@ nav > li {
 	display: inline-block;
 }
 nav > li:not(:first-child) {
-  margin-left: 5em;
+  margin-left: 4.5em;
 }
 
 .top_nav_link {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	text-transform: uppercase;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -122,7 +122,7 @@ nav > li:not(:first-child) {
 }
 
 .small_link	{
-	font-size: 1.15em;
+	font-size: 1em;
 }
 
 .small_link:hover {
@@ -534,7 +534,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 }
 
 #article_body > p {
-    font-size: 1.6em;
+    font-size: 1.35em;
     margin: 1.5em 0;
 }
 
@@ -677,8 +677,8 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 	}
 
 	#contact_section {
-    	width: 90%;
-    }
+    	width: 90%;	
+	}
 
 	.third_column {
 	    width: 100%;
@@ -696,8 +696,16 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 		width: 90%;
 	}
 
+	.contact_label {
+		display: none;
+	}
+	
+	.field_box > input, textarea {
+		padding-left: 0;
+	}
+
 	nav > li:not(:first-child) {
-    	margin-left: 3.75em;
+    	margin-left: 3em;
 	}
 
 	.portfolio_hero {
