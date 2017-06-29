@@ -708,11 +708,11 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 		padding-left: 0;
 	}
 	.top_nav_link {
-		font-size: 1.1em;
+		font-size: 1.25em;
 	}
 	
 	nav > li:not(:first-child) {
-    		margin-left: 2.25em;
+    		margin-left: 2.5em;
 	}
 
 	.portfolio_hero {
