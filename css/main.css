@@ -211,7 +211,7 @@ nav > li:not(:first-child) {
 }
 
 .fourth_column {
-	width: 30%;
+	width: 45%;
 	display: inline-block;
 }
 
@@ -266,6 +266,10 @@ nav > li:not(:first-child) {
 
 .tech_list {
 	width: 100%;
+}
+
+.tech_div {
+	display: inline-block;
 	margin-top: .75em;
 }
 
@@ -280,20 +284,23 @@ nav > li:not(:first-child) {
 
 .portfolio_desc {
 	display: inline-block;
-	max-width: 60%;
+	max-width: 45%;
 }
 
 .left {
-	margin-left: 4em;	
+	margin: 0 2em 4em 4em;
+	float: right;
 }
 
 .right {
-	margin-right: 3em;	
+	margin: 0 3em 4em 2em;
+	float: left;
 }
 
 .portfolio_desc > p {
 	margin: 1em 0 1.5em 0;
 	font-size: 1.25em;
+	color: #333;
 }
 
 .p_button {
@@ -577,6 +584,18 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 
 	#hero_desc {
 	    font-size: 2.9em;
+	}
+}
+
+@media screen and (max-width:1400px){
+	#contact_form {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width:1300px){
+	#contact_form {
+		width: 60%;
 	}
 }
 

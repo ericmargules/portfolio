@@ -35,7 +35,9 @@ layout: index
 						<a href="{{site.url}}{{post.url}}"><text class="portfolio_title">{{ post.post_title }}</text></a>
 						<div class="tech_list">		
 							{% for tech in post.tech_list %}
-							<span class="tech">{{ tech }}</span>
+								<div class="tech_div">
+									<span class="tech">{{ tech }}</span>
+								</div>
 							{% endfor %}
 						</div>
 						<p>{{ post.excerpt }}</p>
@@ -51,7 +53,9 @@ layout: index
 						<a href="{{site.url}}{{post.url}}"><text class="portfolio_title">{{ post.post_title }}</text></a>
 						<div class="tech_list">		
 							{% for tech in post.tech_list %}
-							<span class="tech">{{ tech }}</span>
+								<div class="tech_div">
+									<span class="tech">{{ tech }}</span>
+								</div>
 							{% endfor %}
 						</div>
 						<p>{{ post.excerpt }}</p>

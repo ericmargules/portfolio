@@ -5,10 +5,10 @@ post_title:  "Syema de Pon"
 date:   2017-06-01
 github_url: https://github.com/ericmargules/syema_de_pon
 tech_list: ["Ruby", "Gosu", "Photoshop", "MS Paint"]
-hero: syema_hero.png
-cover: syema_cover.png
-cover_small: syema_cover_small.png
-post_image: zapdos.png
+hero: syema_hero.jpg
+cover: syema_cover.jpg
+cover_small: syema_cover_small.jpg
+post_image: zapdos.jpg
 excerpt: "A proof-of-concept puzzle game based on classic  games like its namesake, Panel de Pon. Players must create horizontal or vertical words to clear letter blocks before they reach the top of the screen."
 position: 1
 video: syema-de-pon.mp4
