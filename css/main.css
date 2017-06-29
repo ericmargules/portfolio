@@ -260,7 +260,7 @@ nav > li:not(:first-child) {
 
 
 .portfolio_title {
-	font-size: 2.1em;
+	font-size: 2em;
 	color: #0073CF;
 }
 
@@ -331,7 +331,7 @@ nav > li:not(:first-child) {
 
 #footer_title {
 	color: #FEFEFE;
-	font-size: 2.1em;
+	font-size: 1.75em;
 	font-weight: 400;
 }
 
@@ -341,8 +341,8 @@ nav > li:not(:first-child) {
     width: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.2em;
-    margin-bottom: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
     border: 0;
 }
 
@@ -458,7 +458,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 
 .contact_title {
 	color: #FEFEFE;
-	font-size: 1.25em;
+	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	margin-bottom: .75em;
@@ -466,7 +466,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 
 .contact_body {
 	color: #FEFEFE;
-	font-size: 1.25em;
+	font-size: 1.2em;
 	font-weight: 400;
 	letter-spacing: .05em;
 }
@@ -489,7 +489,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 .c_button {
     font-size: 1.35em;
     display: inline-block;
-    margin-top: 3em;
+    margin-top: 2.5em;
     padding: 15px 37px;
 	background-color: #FEFEFE;
 	color: #0073CF;
@@ -550,7 +550,7 @@ input:focus + .contact_label, input.focused + .contact_label, textarea:focus + .
 }
 
 .post_title {
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #0073CF;
 	display: block;
 }
