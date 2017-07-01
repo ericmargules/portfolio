@@ -9,7 +9,7 @@ hero: wallet_builder_hero.jpg
 cover: wallet_builder_cover.jpg
 cover_small: wallet_builder_cover_small.jpg
 post_image: wallet_builder_mobile.jpg
-excerpt: "A custom wallet builder web app for the boutique luxury leather goods brand, Decade. The wallet builder enables customers to design and purchase their own leather goods by building a composite image of the custom wallet based on the user's selection of materials and options."
+excerpt: "A custom wallet builder web app for the leather goods brand, Decade, allows customers to design and purchase their own leather goods by building a composite image based on the customer's choice of materials and options."
 position: 1
 video: wallet-builder.mp4
 ---

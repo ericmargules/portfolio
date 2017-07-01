@@ -17,7 +17,7 @@ layout: index
 			<img id="intro_photo" src="{{site.url}}/images/margules.jpg">
 		</div>
 		<div class="three_fourths_column">
-			<p>I <a class="body_link" href="https://github.com/ericmargules">develop applications</a> that engage users with a blend of creative content and pixel-perfect design. I specialize in: Ruby, Rails, Jekyll, Javascript, HTML/CSS and C#.<br>But don't take my word for it.</p>
+			<p>I <a class="body_link" href="https://github.com/ericmargules">develop applications</a> that engage users with creative content and pixel-perfect design. My specialties are Ruby, Rails, Jekyll, Javascript, HTML/CSS, C# and Unity.<br>But don't take my word for it.</p>
 			<h2><a class="body_link" href="#portfolio_content">Browse my portfolio</a></h2>
 		</div>
 	</div>
