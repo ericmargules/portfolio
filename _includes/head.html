@@ -24,4 +24,7 @@
       <script src="{{site.url}}/js/contact.js"></script>
     {% endif %}
   {% endif %}
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
