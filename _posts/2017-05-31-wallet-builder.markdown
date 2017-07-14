@@ -14,7 +14,7 @@ position: 1
 video: wallet-builder.mp4
 ---
 
-A custom wallet builder webapp for the boutique luxury leather goods brand, [Decade](http://www.decadeleather.com). The web application enables customers to design their ideal wallet by choosing colors, materials and other options to build the product in real-time. 
+A custom wallet builder webapp for the boutique luxury leather goods brand, [Decade](http://decadeleather.herokuapp.com). The web application enables customers to design their ideal wallet by choosing colors, materials and other options to build the product in real-time. 
 
 ![image description]({{ site.url }}/images/{{ page.post_image }})
 
