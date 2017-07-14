@@ -14,7 +14,7 @@ position: 1
 video: decade-webstore.mp4
 ---
 
-The [digital storefront](http://www.decadeleather.com) of the boutique luxury leather goods brand, Decade. The goal of the storefront was to create a professional, mobile-friendly venue for customers to research and purchase Decade leather goods easily and securely. To keep costs down, the entire project was designed and coded in-house. 
+The [digital storefront](http://decadeleather.herokuapp.com) of the boutique luxury leather goods brand, Decade. The goal of the storefront was to create a professional, mobile-friendly venue for customers to research and purchase Decade leather goods easily and securely. To keep costs down, the entire project was designed and coded in-house. 
 
 ![image description]({{ site.url }}/images/{{ page.post_image }})
 
